@@ -1,0 +1,15 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /posts                    --> github.com/feacx/crud/controllers.PostCreate (3 handlers)
+[GIN-debug] GET    /posts                    --> github.com/feacx/crud/controllers.GetPosts (3 handlers)
+[GIN-debug] GET    /posts/:id                --> github.com/feacx/crud/controllers.GetPost (3 handlers)
+[GIN-debug] PUT    /posts/:id                --> github.com/feacx/crud/controllers.UpdatePost (3 handlers)
+[GIN-debug] DELETE /posts/:id                --> github.com/feacx/crud/controllers.DelPost (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT="3000"
+[GIN-debug] Listening and serving HTTP on :3000
